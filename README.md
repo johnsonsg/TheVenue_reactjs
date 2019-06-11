@@ -1,3 +1,6 @@
+Created an App for testing and learning.
+This App is for an event called "The Venue"
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
