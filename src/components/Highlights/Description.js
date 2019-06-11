@@ -5,7 +5,7 @@ const Description = () => {
   return (
     <Fade>
       <div className="center_wrapper">
-        <h2>Highlights</h2>
+        <h2>Game Day Info</h2>
         <div className="highlight_description">
           Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae

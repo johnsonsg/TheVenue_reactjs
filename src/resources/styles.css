@@ -10,16 +10,22 @@ body {
 }
 
 .bck_black {
-    background: #3c3c3c;
+    background: #111111;
 }
 .bck_white {
     background: #ffffff;
 }
 .bck_red {
-    background: #ff4800;
+    background: #ff0000;
+}
+.bck_blue{
+    background: blue;
 }
 .bck_yellow {
     background: #ffa800;
+}
+.bck_dkblack {
+    background: #000000;
 }
 
 .iconImage {
@@ -52,6 +58,7 @@ header .header_logo_venue {
 
 header .header_logo_title {
     text-transform: uppercase;
+    color:#ffa800;
 }
 
 /*====================
@@ -68,6 +75,7 @@ footer {
 
 footer .footer_copyright {
     font-size: 18px;
+    color: #ffa800;
 }
 
 /*====================
@@ -86,23 +94,24 @@ footer .footer_copyright {
 }
 
 .artist_name {
+    background-color: rgba(0, 0, 0, 0.8);;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
+    width: 70%;
     height: 160px;
     -webkit-transform: translate(-50%, -50%);  
     transform: translate(-50%, -50%);   
-    border: 2px solid white;
 }
 
 .artist_name .wrapper {
-    border: 2px solid white;
-    height: 121px;
+    border: 2px solid #ffa800;
+    height: 120px;
     margin: 6px;
     text-align: center;
     color: #fff;
     font-size: 40px;
+    font-weight: 600;
     padding: 21px 70px 0px 70px;
     text-transform: uppercase;
 }
@@ -118,7 +127,8 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
+    background: #ffa800;
+    color:#000;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -127,13 +137,13 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: #000;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
     font-size: 70px;
-    border-right: 1px solid #F44336;
+    border-right: 1px solid #ffa800;
     margin-right: 14px;
     padding-right: 49px;
 }
@@ -245,7 +255,7 @@ footer .footer_copyright {
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #ff4800;
+    color: #ffa800;
     font-size: 125px;
     font-weight: 400;
     display: block;
@@ -349,8 +359,8 @@ footer .footer_copyright {
     width: 100%;
 }
 .location_tag div{
-    background: #2c2c2c;
-    color: #ffffff;
+    background: #ffa800;
+    color: #000;
     text-transform: uppercase;
     width: 220px;
     margin: 0 auto;

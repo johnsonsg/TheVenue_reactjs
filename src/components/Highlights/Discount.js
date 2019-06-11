@@ -7,7 +7,7 @@ import MyButton from "../utils/MyButton";
 class Discount extends Component {
   state = {
     discountStart: 0,
-    discountEnd: 30
+    discountEnd: 15
   };
 
   porcentage = () => {
@@ -21,7 +21,7 @@ class Discount extends Component {
   componentDidUpdate() {
     setTimeout(() => {
       this.porcentage();
-    }, 30);
+    }, 15);
   }
 
   render() {
@@ -31,13 +31,13 @@ class Discount extends Component {
           <Fade onReveal={() => this.porcentage()}>
             <div className="discount_porcentage">
               <span>{this.state.discountStart}%</span>
-              <span>OFF</span>
+              <span style={{paddingLeft:"15px"}}>OFF</span>
             </div>
           </Fade>
 
           <Slide right>
             <div className="discount_description">
-              <h3>Purchase tickets before 16th Dec.</h3>
+              <h3>Purchase tickets before 15th Aug</h3>
               <p>
                 Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam eaque ipsa,

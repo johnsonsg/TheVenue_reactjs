@@ -22,7 +22,7 @@ const VenueInfo = () => {
                     }}
                   />
                   <div className="vn_title">Event Date & Time</div>
-                  <div className="vn_desc">16 Decembe 2019 @ 10:00 pm</div>
+                  <div className="vn_desc">15 September 2019 @ 1:00 pm</div>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@ const VenueInfo = () => {
                   />
                   <div className="vn_title">Event Location</div>
                   <div className="vn_desc">
-                    345 Speer Street Oakland, CA 98356
+                    Heinz Field, Pittsburgh PA
                   </div>
                 </div>
               </div>

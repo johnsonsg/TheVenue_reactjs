@@ -7,8 +7,8 @@ import Zoom from 'react-reveal/Zoom';
 class Pricing extends Component {
 
     state = {
-        prices: [100,150,250],
-        positions: ['Balcony', 'Floor', 'Stage'],
+        prices: [100,250,450],
+        positions: ['Sec 520 Row Q', 'Sec 135 Row F', 'Suites'],
         desc: [
             'Quo labore noluisse ne, omnis aliquid postulant vix ea, qui veri simul ex. At mel aeque explicari.',
             'Quo labore noluisse ne, omnis aliquid postulant vix ea, qui veri simul ex. At mel aeque explicari.',
@@ -52,7 +52,7 @@ class Pricing extends Component {
         return (
             <div className="bck_black">
                 <div className="center_wrapper pricing_section">
-                    <h2>Pricing</h2>
+                    <h2>Ticket Prices</h2>
                     <div className="pricing_wrapper">
                        {this.showBoxes()}
                     </div>

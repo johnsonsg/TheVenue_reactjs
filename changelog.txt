@@ -1,7 +1,7 @@
 # 11 June 19
 
-    * high-rate.surge.sh ( Deployed to Surge )
-    * npm surge -p build ( Uploaded { Build Directory } to Surge )
+    * idiotic-chickens.surge.sh ( Deployed to Surge )
+    * surge -p build ( Uploaded { Build Directory } to Surge )
     * npm run build ( Build App )
 
     * Initial Upload to GitHub.com

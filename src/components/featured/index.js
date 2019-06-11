@@ -10,7 +10,7 @@ const Featured = () => {
 
             <div className="artist_name">
                 <div className="wrapper">
-                    Ariana Grande
+                    Pittsburgh Steelers vs Seattle Seahawks
                 </div>
             </div>
 
