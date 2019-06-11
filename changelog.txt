@@ -1,2 +1,7 @@
 # 11 June 19
-* Initial Upload to GitHub.com
+
+    * high-rate.surge.sh ( Deployed to Surge )
+    * npm surge -p build ( Uploaded { Build Directory } to Surge )
+    * npm run build ( Build App )
+
+    * Initial Upload to GitHub.com
