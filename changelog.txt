@@ -1,3 +1,10 @@
+# 12 June 19
+    * well-off-tree.surge.sh ( Deployed to Surge )
+    * surge -p build ( Uploaded { Build Directory } to Surge )
+    * npm run build ( Build App )
+    * Added Steelers logo instead of Font use.
+
+
 # 11 June 19
 
     * idiotic-chickens.surge.sh ( Deployed to Surge )

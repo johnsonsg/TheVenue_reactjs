@@ -7,6 +7,8 @@ import IconButton from '@material-ui/core/IconButton';
 
 import SideDrawer from './SideDrawer'
 
+import steelersLogo from  "../../resources/images/steelers.png";
+
 class Header extends Component {
 
     state = {
@@ -56,8 +58,13 @@ class Header extends Component {
                 <ToolBar>
 
                     <div className="header_logo">
-                        <div className="font_righteous header_logo_venue">Pittsburgh Steelers</div>
-                        <div className="header_logo_title">2019 Season</div>
+                        <div><img 
+                        src={ steelersLogo }
+                        style={{width:"300px"}}
+                        alt="Steelers"
+                        /></div>
+                        {/* <div className="font_righteous header_logo_venue">Pittsburgh Steelers</div> */}
+                        <div style={{paddingLeft:"25px", color:"white"}} className="header_logo_title">2019 Season</div>
 
                     </div>
 
